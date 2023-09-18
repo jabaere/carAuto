@@ -21,7 +21,7 @@ const Contact = () => {
     setData({ status: "sending" });
     try {
       const response = await fetch(
-        "https://v1.nocodeapi.com/jabjab/google_sheets/YMiuWzIzIbfRndSA",
+        "https://v1.nocodeapi.com/jabjab/google_sheets/YMiuWzIzIbfRndSA?tabId=sheet1",
         {
           method: "POST",
           headers: {
